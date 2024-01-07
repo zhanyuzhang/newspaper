@@ -1,0 +1,24 @@
+{
+  "name": "years",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanyuzhang/newspaper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhanyuzhang/newspaper/issues"
+  },
+  "homepage": "https://github.com/zhanyuzhang/newspaper#readme",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "axios": "^1.6.5",
+    "koa": "^2.15.0"
+  }
+}
