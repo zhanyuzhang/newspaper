@@ -13,8 +13,8 @@
 (function () {
   'use strict';
 
-  if (/_b\.jpg$/.test(location.href)) {
-    location.href = location.href.replace('_b.jpg', '_c.jpg');
+  if (/_(b|s)\.jpg$/.test(location.href)) {
+    location.href = location.href.replace('_b.jpg', '_c.jpg').replace('_s.jpg', '_c.jpg');
   }
 
   if (/_c\.jpg$/.test(location.href)) {
